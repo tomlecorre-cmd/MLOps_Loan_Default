@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/karun/OneDrive/Bureau/DU Data Analytics/MLOPS/MLOps_Loan_Default-main/MLOps_Loan_Default-main/mlruns/1/models/m-da92336960944338b16c5c8b501a9447/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-da92336960944338b16c5c8b501a9447
+model_size_bytes: 107621
+model_uuid: m-da92336960944338b16c5c8b501a9447
+prompts: null
+run_id: 6cb62d33023e4ca1bb19ecc450b259c7
+utc_time_created: '2026-04-05 13:07:11.987862'
